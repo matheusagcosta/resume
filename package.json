@@ -1,0 +1,25 @@
+{
+  "name": "matheusagcosta-website",
+  "version": "0.0.1",
+  "description": "matheusagcosta's Website",
+  "author": "Matheus Costa <hi@matheusagcosta.com>",
+  "private": true,
+  "scripts": {
+    "dev": "harp server app & browser-sync start --no-open --proxy 'localhost:9000' --files '**/*.jade, **/*.scss, **/*.json, **/*.js, **/*.md' --no-notify",
+    "build": "harp compile app docs && echo matheusagcosta.com >> docs/CNAME"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.1",
+    "harp": "^0.34.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusagcosta/matheusagcosta.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusagcosta/matheusagcosta/issues"
+  },
+  "homepage": "https://github.com/matheusagcosta/matheusagcosta#readme",
+  "dependencies": {}
+}

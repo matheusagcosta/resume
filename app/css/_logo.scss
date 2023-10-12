@@ -1,0 +1,19 @@
+.logo {
+
+  &__image {
+    fill: var(--main-border-color);
+    transition: opacity .2s linear;
+  }
+
+  &__image:hover {
+    opacity: .75;
+  }
+
+  &__image--light {
+    display: var(--is-hero-img-shown);
+  }
+
+  &__image--dark {
+    display: var(--is-hero-img-hidden);
+  }
+}

@@ -1,0 +1,59 @@
+@mixin themeLight($bool) {
+  --main-bg-color: #{$white};
+  --main-border-color: #{$black};
+  --main-text-color: #{$black};
+  --main-link-color: #{$mine};
+  --main-header-color: 255, 255, 255;
+  --header-text-shadow: none;
+  --light-bg-color: #{$gainsboro};
+  --eventene-bg-color: #{$athens};
+  --switcher-bg-color: #{$darken-gainsboro};
+  --switcher-position: translateX(6px);
+  --switcher-opacity-active: 1;
+  --switcher-opacity-inactive: .8;
+  --about-icon: inline-block;
+  --about-icon-hidden: none;
+  --title-effect: multiply;
+
+  @if $bool {
+    --is-hidden: none;
+    --is-shown: inline-block;
+    --no-click-active: none;
+    --no-click-inactive: all;
+  } @else {
+    --is-hidden: inline-block;
+    --is-shown: none;
+    --no-click-active: all;
+    --no-click-inactive: none;
+  }
+}
+
+@mixin themeDark($bool) {
+  --main-bg-color: #{$black};
+  --main-border-color: #{$white};
+  --main-text-color: #{$white};
+  --main-link-color: #{$white};
+  --main-header-color: 68, 68, 68;
+  --header-text-shadow: 0 0 4px rgba(0,0,0,.5);
+  --light-bg-color: #{$mine};
+  --eventene-bg-color: #{$mine};
+  --switcher-bg-color: #{$mine};
+  --switcher-position: translateX(32px);
+  --switcher-opacity-active: .8;
+  --switcher-opacity-inactive: 1;
+  --about-icon: none;
+  --about-icon-hidden: inline-block;
+  --title-effect: hard-light;
+
+  @if $bool {
+    --is-hidden: inline-block;
+    --is-shown: none;
+    --no-click-active: all;
+    --no-click-inactive: none;
+  } @else {
+    --is-hidden: none;
+    --is-shown: inline-block;
+    --no-click-active: none;
+    --no-click-inactive: all;
+  }
+}

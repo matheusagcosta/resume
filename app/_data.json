@@ -1,0 +1,21 @@
+{
+  "cv": {
+    "title": "Matheus Costa • Resume",
+    "description": "This is the responsive view of my resume"
+  },
+  "404": {
+    "title": "Matheus Costa • Not Found"
+  },
+  "eventene": {
+    "title": "Matheus Costa • Eventene",
+    "description": "Scaling design at Eventene"
+  },
+  "hs": {
+    "title": "Matheus Costa • Hubstaff",
+    "description": "Enhancing employee management"
+  },
+  "camelias": {
+    "title": "Matheus Costa • Camelias",
+    "description": "Connecting residents at Camelias"
+  }
+}

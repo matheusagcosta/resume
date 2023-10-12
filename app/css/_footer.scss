@@ -1,0 +1,68 @@
+.footer {
+  @extend %box;
+  background-color: $mine;
+  margin: 0;
+  padding: 3rem 0;
+  position: relative;
+
+  *:not(a) {
+    color: $white;
+  }
+
+  &__info {
+    justify-content: space-between;
+    max-width: $max-width;
+    margin: auto;
+    padding: 0 1.5rem;
+
+    @media (max-width: 650px) {
+      flex-direction: column;
+    }
+  }
+
+  &__info,
+  &__nav {
+    align-items: center;
+    display: flex;
+  }
+
+  &__heading,
+  &__nav {
+    margin: .5rem 0;
+  }
+
+  &__nav {
+    justify-content: center;
+  }
+
+  &__link {
+    font-weight: bold;
+  }
+
+  &__link,
+  &__link:hover,
+  &__link:visited {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  &__link:hover {
+    text-decoration: none;
+  }
+
+  &__button {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: .75rem;
+    transition: background .15s ease-in-out;
+
+    &:hover {
+      background-color: $black;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 24px;
+  }
+}

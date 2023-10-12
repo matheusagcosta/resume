@@ -1,4 +1,4 @@
-# Matheus's Website
+# Matheus's Resume
 
 This project is built with [harp](http://harpjs.com/)
 

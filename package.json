@@ -1,12 +1,12 @@
 {
-  "name": "matheusagcosta-website",
+  "name": "matheusagcosta-cv",
   "version": "0.0.1",
-  "description": "matheusagcosta's Website",
+  "description": "matheusagcosta's CV",
   "author": "Matheus Costa <hi@matheusagcosta.com>",
   "private": true,
   "scripts": {
     "dev": "harp server app & browser-sync start --no-open --proxy 'localhost:9000' --files '**/*.jade, **/*.scss, **/*.json, **/*.js, **/*.md' --no-notify",
-    "build": "harp compile app docs && echo matheusagcosta.com >> docs/CNAME"
+    "build": "harp compile app docs && echo cv.mcosta.me >> docs/CNAME"
   },
   "devDependencies": {
     "browser-sync": "^2.27.1",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheusagcosta/matheusagcosta.git"
+    "url": "git+https://github.com/matheusagcosta/resume.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matheusagcosta/matheusagcosta/issues"
+    "url": "https://github.com/matheusagcosta/resume/issues"
   },
-  "homepage": "https://github.com/matheusagcosta/matheusagcosta#readme",
+  "homepage": "https://github.com/matheusagcosta/resume#readme",
   "dependencies": {}
 }

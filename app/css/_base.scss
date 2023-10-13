@@ -175,7 +175,9 @@ small {
     left: 0 !important;
     right: 0 !important;
     top: 0;
+    transform: translateX(580px);
   }
+
   @media screen and (max-width: 1280px) {
     left: auto !important;
     right: 1rem !important;

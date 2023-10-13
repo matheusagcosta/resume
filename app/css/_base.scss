@@ -171,13 +171,13 @@ small {
   bottom: auto !important;
   z-index: 77777;
 
-  @media screen and (min-width: 801px) {
+  @media screen and (min-width: 1281px) {
     left: 0 !important;
     right: 0 !important;
     top: 0;
   }
-  @media screen and (max-width: 800px) {
-    left: 70px !important;
-    right: auto !important;
+  @media screen and (max-width: 1280px) {
+    left: auto !important;
+    right: 1rem !important;
   }
 }
